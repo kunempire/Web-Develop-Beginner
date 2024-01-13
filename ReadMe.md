@@ -27,6 +27,7 @@ This is the UI based on Web (front-end) of the final project in *Data Security a
 │   ├── image-distinguish.html
 │   ├── tampering-detect.html
 │   └── text-distinguish.html
+├── web-page_org.zip # original web page template
 ├── utils.py # functions
 └── main.py # application entrance
 ```
