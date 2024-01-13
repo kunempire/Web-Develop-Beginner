@@ -1,0 +1,40 @@
+.custom-textarea {
+  resize: vertical;
+  /* 允许垂直调整大小 */
+  overflow-y: auto;
+  /* 显示垂直滚动条，如果内容溢出 */
+}
+
+.my-main-content {
+  position: relative;
+  height: 600px;
+  z-index: 0
+}
+
+.img-area {
+  border: 2px dashed #ccc;
+  text-align: center;
+  cursor: pointer;
+  max-width: 100%;
+  max-height: 200px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  overflow: hidden;
+}
+
+.img-area img {
+  width: 98%;
+  height: auto;
+}
+
+blockquote {
+  background-color: #f0f0f0; /* 设置背景颜色 */
+  padding: 15px; /* 设置内边距 */
+  border-left: 5px solid #3498db; /* 设置左侧边框 */
+  margin: 10px 0; /* 设置外边距 */
+}
+
+blockquote p {
+  margin-bottom: 10px; /* 设置段落间距 */
+  color: #333; /* 设置文本颜色 */
+}
