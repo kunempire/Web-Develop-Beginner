@@ -97,4 +97,6 @@ if __name__ == '__main__':
 
     # function_test()
 
-    app.run(debug=True, port=7890)
+    # 0.0.0.0 表示允许来自任何 IP 地址的访问，否则只能本地访问
+    app.run(debug=True, host='0.0.0.0', port=7890)
+    
